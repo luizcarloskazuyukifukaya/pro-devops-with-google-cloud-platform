@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
       - name: master
-        image: jenkins/jenkins:tls
+        image: jenkins/jenkins:lts
         ports:
         - containerPort: 8080
         - containerPort: 50000
